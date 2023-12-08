@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: thistle;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+  cursor: pointer;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+}
